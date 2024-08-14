@@ -1,0 +1,69 @@
+{
+  "dependencies": {
+    "ajax-hook": "^3.0.2",
+    "antd": "^5.10.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.15.0"
+  },
+  "description": "今晚打老虎",
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^2.0.0-beta.25",
+    "@iconify-json/mdi": "^1.1.54",
+    "@tailwindcss/forms": "^0.5.5",
+    "@types/chrome": "^0.0.244",
+    "@types/eslint": "^8.44.2",
+    "@types/eslint-config-prettier": "^6.11.0",
+    "@types/node": "^18.17.11",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@typescript-eslint/eslint-plugin": "^6.4.1",
+    "@typescript-eslint/parser": "^6.4.1",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "autoprefixer": "^10.4.15",
+    "eslint": "^8.48.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.1",
+    "postcss": "^8.4.28",
+    "prettier": "^3.0.2",
+    "prettier-plugin-tailwindcss": "^0.5.3",
+    "sass": "^1.66.1",
+    "tailwindcss": "^3.3.3",
+    "typescript": "^5.2.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-icons": "^0.16.5",
+    "vite": "^5.3.4",
+    "vite-plugin-pages": "^0.32.3",
+    "vite-plugin-vue-devtools": "^7.3.6",
+    "webext-bridge": "^6.0.1"
+  },
+  "displayName": "今晚打老虎",
+  "name": "今晚打老虎",
+  "overrides": {
+    "@crxjs/vite-plugin": "$@crxjs/vite-plugin"
+  },
+  "pnpm": {
+    "overrides": {},
+    "peerDependencyRules": {
+      "allowAny": [],
+      "allowedDeprecatedVersions": {
+        "sourcemap-codec": "1.4.8"
+      },
+      "allowedVersions": {},
+      "ignoreMissing": []
+    }
+  },
+  "private": true,
+  "scripts": {
+    "build": "vite build",
+    "build:chrome": "vite build -c vite.chrome.config.ts",
+    "dev": "vite",
+    "dev:chrome": "vite -c vite.chrome.config.ts",
+    "lint": "eslint . --fix --ext js,mjs,cjs,ts,mts,cts,react",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "version": "0.0.1"
+}
